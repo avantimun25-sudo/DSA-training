@@ -66,7 +66,7 @@ if a==0:
     print("0")
 
 a = input("Enter day: ")
-ifa=="Monday"or a=="monday" or a=="Tuesday"or a=="tuesday" or a=="Wednesday" or a=="wednesday" or a=="Thursday" or a=="thusrday" or a=="Friday" or a=="friday":
+if a=="Monday"or a=="monday" or a=="Tuesday"or a=="tuesday" or a=="Wednesday" or a=="wednesday" or a=="Thursday" or a=="thusrday" or a=="Friday" or a=="friday":
     print("Working day")
 else:
     print("Weekend")
@@ -144,11 +144,11 @@ for i in range(1,5):
         continue
     print(i)
 
-1 5
-2 4
-4 2
-5 1
-zip()  we can take multiple range function inside zip
+#1 5
+#2 4
+#4 2
+#5 1
+#zip()  we can take multiple range function inside zip
 for i,j in zip(range(1,6),range(5,0,-1)):
     if i ==3 and j==3:
         continue

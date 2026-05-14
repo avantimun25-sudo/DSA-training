@@ -73,8 +73,8 @@ mylist=[44,22,77,8,9,88]
 for i in mylist:
     print(i)
 
-i/p mylist = [0,1,4,0,2,5]
-o/p mylist = [1,4,2,5,0,0]
+#i/p mylist = [0,1,4,0,2,5]
+#o/p mylist = [1,4,2,5,0,0]
 mylist = [0,1,4,0,2,5]
 for i in mylist:
     if i==0:
@@ -82,7 +82,7 @@ for i in mylist:
         mylist.append(i)
 print(mylist)
 
-second largest
+#second largest
 mylist = [7,3,9,2,8]
 mylist.sort(reverse=True)
 print(mylist[1])
@@ -90,7 +90,7 @@ print(mylist[1])
 a=[1,2,3,4,5,6,7,8,9]
 a[::2]=10,20,30,40,50,60
 print(a)
-Error: attempt to assign sequence of size 6 to extended slice of size 5
+#Error: attempt to assign sequence of size 6 to extended slice of size 5
 
 a=[1,2,3,4,5]
 print(a[3:0:-1])
