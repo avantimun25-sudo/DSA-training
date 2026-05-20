@@ -1,0 +1,11 @@
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:\Users\avant\Desktop\DSA\DSA-training\Day8.py", line 123, in <module>
+    print(a/b)
+          ~^~
+ZeroDivisionError: division by zero
+ERROR:root:invalid literal for int() with base 10: 'g'
+Traceback (most recent call last):
+  File "C:\Users\avant\Desktop\DSA\DSA-training\Day8.py", line 122, in <module>
+    b=int(input("enter second integer no"))
+ValueError: invalid literal for int() with base 10: 'g'
